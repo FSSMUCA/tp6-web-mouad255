@@ -4,6 +4,7 @@ body{
   margin: 0;
 }
 
+
 header, main, footer{
   background: white;
   max-width: 700px;
@@ -40,3 +41,4 @@ li{
   padding: 8px;
   margin: 6px 0;
 }
+
