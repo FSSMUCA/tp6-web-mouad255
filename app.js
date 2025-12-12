@@ -5,6 +5,7 @@ const historyUl = document.getElementById("history");
 
 let history = [];
 
+
 function afficherHistorique() {
   historyUl.innerHTML = "";
   for (let i = 0; i < history.length; i++) {
@@ -48,3 +49,4 @@ form.addEventListener("submit", function(e){
   history.unshift(a + " " + op + " " + b + " = " + resultat);
   afficherHistorique();
 });
+
